@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    background-color: rgba(250, 250, 250, 1);
+}
+
+
+/* -----------------------------------HEADER */
+
+.header {
+    width: 100vw;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0 20px;
+}
+
+.header .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 955px;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.header__logo {
+    /* width: 360px; */
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 110px;
+}
+
+.header .header__search .header__search--input-container {
+    border: 1px solid rgb(219, 219, 219);
+    width: 215px;
+    height: 28px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 100px; */
+    border-radius: 3px;
+    background-color: rgba(250, 250, 250, 1);
+    margin-left: 40px;
+}
+
+.header__search--input-container .header__search--icon {
+    background-image: url('/assets/lupa.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.header__search--input-container input {
+    border: none;
+    outline: none;
+    background-color: rgba(250, 250, 250, 1);
+    width: 47px;
+}
+
+
+/* .header__search--input-container input:focus {
+    border: 1px solid red;
+} */
+
+.header__search--input-container ::placeholder {
+    color: rgb(161, 157, 157);
+}
+
+.header__menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu ul li {
+    list-style: none;
+    padding-left: 24px;
+}
+
+.header__menu ul li a img {
+    width: 22px;
+}
+
+.header__menu .header__menu--img-profile {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+
+/* ------------------------------PROFILE SECTION */
+
+.profile {
+    padding: 38px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.profile__container {
+    max-width: 975px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60px 38px 144px;
+    /* grid-template-rows: 100px 100px 200px; */
+}
+
+.profile__image {
+    grid-row: 1 / span 3;
+    align-self: start;
+    justify-self: center;
+}
+
+.profile__image figure {
+    width: 150px;
+    height: 150px;
+    background-image: url('/assets/puppy.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile__info--top {
+    grid-column: 2 / span 2;
+    grid-row: 1 / 2;
+    margin-bottom: 20px;
+    justify-self: start;
+}
+
+.profile__info--top-details {
+    display: flex;
+}
+
+.profile__info--top-details p {
+    font-size: 28px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.profile__info--top-details button {
+    margin: 0 20px;
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: #262626;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+}
+
+.profile__info--top-details button:active {
+    opacity: .7;
+}
+
+.profile__info--top-details img {
+    width: 24px;
+    cursor: pointer;
+}
+
+.profile__info--middle {
+    grid-column: 2 / span 2;
+    grid-row: 2 / 3;
+    margin-bottom: 20px;
+}
+
+.profile__infp--middle-stats {
+    display: flex;
+}
+
+.profile__infp--middle-stats p {
+    margin-right: 40px;
+    color: #262626;
+}
+
+.profile__info--bottom {
+    grid-column: 2 / span 2;
+    grid-row: 3 / 4;
+}
+
+.profile__info--bottom p {
+    margin-bottom: 5px;
+}
+
+.profile__info--bottom a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #00376b;
+}
+
+
+/* ------------------------------SECTION  */
+
+.sections {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sections__container {
+    max-width: 975px;
+    width: 100%;
+    border-top: 1px solid rgba(219, 219, 219, 1);
+    height: 53px;
+    display: flex;
+    justify-content: center;
+}
+
+.sections img {
+    width: 12px;
+    height: 12px;
+}
+
+.sections__posts,
+.sections__igtv,
+.sections__saved,
+.sections__tags {
+    /* display: flex;
+    align-items: center;
+    margin-left: 60px;
+    border-top: 1px solid black; */
+}
+
+.sections__posts a,
+.sections__igtv a,
+.sections__saved a,
+.sections__tags a {
+    height: 51px;
+    text-decoration: none;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    box-sizing: border-box;
+}
+
+.sections__posts a:hover,
+.sections__igtv a:hover,
+.sections__saved a:hover,
+.sections__tags a:hover {
+    border-top: 1px solid black;
+    color: #262626;
+}
+
+.sections__posts img,
+.sections__igtv img,
+.sections__saved img,
+.sections__tags img {
+    margin-right: 5px;
+}
+
+
+/* -------------------------------------IMAGES */
+
+.images {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.images__container {
+    max-width: 975px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 293px);
+    grid-template-rows: repeat(4, 293px);
+    grid-gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+.images__images {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.img-1 {
+    background-image: url('/assets/puppy-1.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('/assets/puppy-2.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3 {
+    background-image: url('/assets/puppy-3.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-4 {
+    background-image: url('/assets/puppy-4.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-5 {
+    background-image: url('/assets/puppy-5.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-6 {
+    background-image: url('/assets/puppy-6.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-7 {
+    background-image: url('/assets/puppy-7.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-8 {
+    background-image: url('/assets/puppy-8.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-9 {
+    background-image: url('/assets/puppy-9.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-10 {
+    background-image: url('/assets/puppy-10.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-11 {
+    background-image: url('/assets/puppy-11.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-12 {
+    background-image: url('/assets/puppy-12.jpg');
+    width: 293px;
+    height: 293px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ----------------------------------------FOOTER */
+
+.footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.footer__container {
+    max-width: 1074px;
+    height: 122px;
+    width: 100%;
+    padding: 38px 0;
+}
+
+.footer__info {
+    margin-bottom: 10px;
+}
+
+.footer__info a {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    Color: #00376b;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.footer__copyright p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8e8e8e;
+}
