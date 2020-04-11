@@ -301,7 +301,7 @@ body {
 }
 
 .img-1 {
-    background-image: url('./assets/puppy-1.jpg');
+    background-image: url('/assets/puppy-1.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -309,7 +309,7 @@ body {
 }
 
 .img-2 {
-    background-image: url('./assets/puppy-2.jpg');
+    background-image: url('/assets/puppy-2.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
