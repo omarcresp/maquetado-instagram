@@ -301,7 +301,7 @@ body {
 }
 
 .img-1 {
-    background-image: url('https://github.com/frankynztein/maquetado-instagram/blob/master/assets/puppy-1.jpg');
+    background-image: url('./assets/puppy-1.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
