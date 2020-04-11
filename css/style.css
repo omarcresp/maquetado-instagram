@@ -60,7 +60,7 @@ body {
 }
 
 .header__search--input-container .header__search--icon {
-    background-image: url('/assets/lupa.svg');
+    background-image: url('/maquetado-instagram/assets/lupa.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -135,7 +135,7 @@ body {
 .profile__image figure {
     width: 150px;
     height: 150px;
-    background-image: url('/assets/puppy.jpg');
+    background-image: url('/maquetado-instagram/assets/puppy.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -301,7 +301,7 @@ body {
 }
 
 .img-1 {
-    background-image: url('./assets/puppy-1.jpg');
+    background-image: url('../assets/puppy-1.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -309,7 +309,7 @@ body {
 }
 
 .img-2 {
-    background-image: url('./assets/puppy-2.jpg');
+    background-image: url('../assets/puppy-2.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -317,7 +317,7 @@ body {
 }
 
 .img-3 {
-    background-image: url('./assets/puppy-3.jpg');
+    background-image: url('../assets/puppy-3.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -325,7 +325,7 @@ body {
 }
 
 .img-4 {
-    background-image: url('./assets/puppy-4.jpg');
+    background-image: url('../assets/puppy-4.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -333,7 +333,7 @@ body {
 }
 
 .img-5 {
-    background-image: url('./assets/puppy-5.jpg');
+    background-image: url('../assets/puppy-5.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -341,7 +341,7 @@ body {
 }
 
 .img-6 {
-    background-image: url('./assets/puppy-6.jpg');
+    background-image: url('../assets/puppy-6.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -349,7 +349,7 @@ body {
 }
 
 .img-7 {
-    background-image: url('./assets/puppy-7.jpg');
+    background-image: url('../assets/puppy-7.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -357,7 +357,7 @@ body {
 }
 
 .img-8 {
-    background-image: url('./assets/puppy-8.jpg');
+    background-image: url('../assets/puppy-8.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -365,7 +365,7 @@ body {
 }
 
 .img-9 {
-    background-image: url('./assets/puppy-9.jpg');
+    background-image: url('../assets/puppy-9.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -373,7 +373,7 @@ body {
 }
 
 .img-10 {
-    background-image: url('./assets/puppy-10.jpg');
+    background-image: url('../assets/puppy-10.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -381,7 +381,7 @@ body {
 }
 
 .img-11 {
-    background-image: url('./assets/puppy-11.jpg');
+    background-image: url('../assets/puppy-11.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
@@ -389,7 +389,7 @@ body {
 }
 
 .img-12 {
-    background-image: url('./assets/puppy-12.jpg');
+    background-image: url('../assets/puppy-12.jpg');
     width: 293px;
     height: 293px;
     background-size: cover;
